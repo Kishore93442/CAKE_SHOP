@@ -80,6 +80,11 @@ body {
     z-index: 2;
 }
 
+#nav1 a{
+    text-decoration: none;
+    color: white;
+}
+
 #nav1 li:hover {
     color: #e5bf4a;
     cursor: pointer;
@@ -340,14 +345,6 @@ body {
     margin-bottom: 40px;
 }
 
-/* .more::before{
-    content: "";
-    width: 82px;
-    height: 1.6px;
-    background-color: #e5bf4a;
-    position: absolute;
-    bottom: -20%;
-} */
 .more {
     text-decoration: underline solid 1px #e5bf4a;
     text-underline-offset: 10px;
@@ -415,6 +412,10 @@ body {
     list-style: none;
     margin-top: 20px;
 }
+
+.ul1 a{
+     text-decoration: none;
+     color: white;
 
 .ul1 li:hover {
     text-decoration: underline solid #e5bf4a 1px;
